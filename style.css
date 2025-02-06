@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #ffd7ea;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.maintext{
+    width: 90%;
+    color: #871111;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation-duration: 5s;
+    animation-name: appear;
+}
+
+@keyframes appear{
+    0%{
+        opacity:0;
+    }
+
+    100%{
+        opacity:1;
+
+    }
+}
+
+.clickhere-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #871111;
+    padding: 10px 8px;
+    font-size: 13px;
+    background: #871111;
+    position: relative;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.clickhere-btn:hover{
+    border: 1px solid #fe96c8;
+    background: #fe96c8;
+    color: #871111;
+    transition: 0.5s;
+
+}
+
+@media(max-width: 800px) {
+    .maintext h1{
+        font-size: 20px;
+    }
+
+    message_box {
+        padding: 50px 0; 
+    }
+
+    .message_box h2 {
+        font-size: 16px;
+        padding: 0 20px; 
+        margin-bottom: 20px;
+    }
+
+    .message_box video {
+        width: 60%;
+        padding: 0 0 14px;
+        margin: 0 auto; 
+        display: block;
+    }
+
+    .message_box audio {
+        width: 80%;
+        padding: 9px 0 0;
+        margin: 0 auto; 
+        display: block;
+    }
+
+}
+
+.header_page2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(heartbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.message_box video {
+    width: 15%;
+    right: 0px;
+    bottom: 0px;
+    padding: 0px 440px 14px;
+}
+
+.message_box {
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 124px 0px 159px;
+}
+
+.message_box h2 {
+    font-size: 85%;
+    padding: 0px 440px 0px;
+}
+
+.message_box audio {
+    padding: 9px 440px 0px
+}
